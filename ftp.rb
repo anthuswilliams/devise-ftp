@@ -6,8 +6,8 @@ require 'yaml'
 
 RAILS_ROOT = File.expand_path(File.dirname(__FILE__))
 
-UID = 501
-GID = 20
+UID = SET_THIS_TO_A_VALID_UNIX_UID
+GID = SET_THIS_TO_A_VALID_UNIX_GID
 
 config = YAML.load(IO.read("#{RAILS_ROOT}/config/database.yml"))['development']
 u = {}
