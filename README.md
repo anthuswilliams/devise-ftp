@@ -18,6 +18,7 @@ Launch the pure-authd daemon using this script as an option with -r. Make sure t
 ```bash
 sudo pure-authd -s /var/run/ftpd.sock -r /path/to/this/script/ftp.rb &
 sudo pure-ftpd -lextauth:/var/run/ftpd.sock &
+```
 
 
 * Roadmap
