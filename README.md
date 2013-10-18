@@ -5,7 +5,7 @@ This is a small program intended to perform FTP authentication against users of 
 This is a delivery-room proram. Mewling and puking and all that. Feel free to use it under the Do-Whatever-You-Like License, but just know that newborns are not exactly known for their robustness.
 
 
-* Setup
+## Setup
 
 This works with Pure-FTP. For instructions on setting up Pure-FTP, go [here](http://www.pureftp.org/project/pure-ftp/doc).
 
@@ -20,8 +20,7 @@ sudo pure-authd -s /var/run/ftpd.sock -r /path/to/this/script/ftp.rb &
 sudo pure-ftpd -lextauth:/var/run/ftpd.sock &
 ```
 
-
-* Roadmap
+## Roadmap
 
 In no particular order, plans with this are:
 
